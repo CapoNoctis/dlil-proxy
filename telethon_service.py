@@ -11,8 +11,9 @@ import os
 API_ID          = int(os.getenv("TELETHON_API_ID", "0"))
 API_HASH        = os.getenv("TELETHON_API_HASH", "")
 STRING_SESSION  = os.getenv("TELETHON_STRING_SESSION", "")
-TARGET_BOT      = "dlilcomApp_bot"   # بدون الـ @
-
+TARGET_BOT      = "SaudiNumberBook_bot"   # بدون الـ @
+#SaudiNumberBook_bot
+#dlilcomApp_bot
 if not API_ID or not API_HASH or not STRING_SESSION:
     raise RuntimeError(
         "تأكد من تعيين المتغيّرات: "
